@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+    justify-items: center;
+}
+
+body a {
+    color: #45B39D;
+}
+
+nav {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.links {
+    /* display: flex; */
+    margin-left: auto;
+}
+
+.links input {
+    height: 1.5rem;
+    width: 10rem;
+    margin-right: 1rem;
+    padding: 0 10px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 4px;
+}
+
+.links a {
+    font-weight: 650;
+    margin-left: 1.5rem;
+}
+
+.links .newFoodItemBtn {
+    color: #fafafa;
+    background-color: #45B39D;
+    padding: 7px 16px;
+    border-radius: 4px;
+}
+
+.aboutUs {
+    margin: 3rem 2rem;
+}
+
+.notFound {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.notFound .title {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.notFound .text {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.notFound a {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.newFoodItem {
+    max-width: 450px;
+    margin: 35px auto;
+}
+
+.newFoodItem h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.newFoodItem input {
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    padding: 0 10px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 4px;
+}
+
+.newFoodItem textarea {
+    height: 150px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    padding: 10px 10px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 4px;
+}
+
+.newFoodItem label {
+    font-size: 18px;
+}
+
+.newFoodItem button {
+    font-size: medium;
+    font-weight: 650;
+    color: #fafafa;
+    background-color: #45B39D;
+    border: 0;
+    padding: 8px 24px;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    margin: 3rem;
+}
+
