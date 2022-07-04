@@ -7,6 +7,8 @@ import CartView from './features/cart/cartView';
 import PaymentSuccess from './pages/paymentSuccess/PaymentSuccess';
 import NotFound from './NotFound';
 import Footer from './components/Footer';
+import Contacts from './pages/contacts/Contacts';
+import About from './pages/about/About';
 
 function App() {
     return (
@@ -15,6 +17,8 @@ function App() {
             <Routes>
                 <Route path='/' element={ <Home /> } />
                 <Route path='/menu' element={ <FoodItemsView /> } />
+                <Route path='/about' element={ <About /> } />
+                <Route path='/contacts' element={ <Contacts /> } />
                 <Route path='/cart' element={ <CartView /> } />
                 <Route path='/payment-success' element={ <PaymentSuccess /> } />
                 <Route path='*' element={ <NotFound /> } />
