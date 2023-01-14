@@ -2,7 +2,7 @@
   "name": "node.js-express-ejs-mongodb",
   "version": "0.0.0",
   "engines": {
-    "node": "18.13.0"
+    "node": "18.12.1"
   },
   "private": true,
   "main": "app.js",
