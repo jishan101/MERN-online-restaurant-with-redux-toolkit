@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 const foodItemRoutes = require("./routes/foodItemRoutes.js");
 const stripeRoutes = require("./routes/stripeRoutes.js");
+const path = require("path");
 
 const app = express();
 
